@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    height: 100vh;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.glassbox {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    /* height: 200px; */
+    background: radial-gradient(100% 241.98% at 0% 0%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(7px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 20px;
+    border: 2.5px solid #ffffff66;
+    /* border-image-source: linear-gradient(112.45deg, #FFFFFF 0%, rgba(255, 255, 255, 0.29) 100%); */
+}
+
+.glassbox .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ffffff66;
+}
+
+.nav-logo img {
+    width: 70px;
+}
+
+.nav-content .nav-link ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link ul li {
+    padding: 10px;
+}
+
+.nav-link ul li a {
+    text-decoration: none;
+    color: #a5a5a5;
+    letter-spacing: 2px;
+}
+
+.nav-link ul li a:hover,
+.nav-link ul li a:focus {
+    /* background-color: #ffffff; */
+    color: rgb(255, 255, 255);
+}
+
+.nav-link .active {
+    color: #ffffff;
+}
+
+main .welcome {
+    display: block;
+    padding: 20px 30px;
+}
+
+.welcome .image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 200px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text p {
+    letter-spacing: 5px;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
